@@ -1,0 +1,20 @@
+*::-webkit-scrollbar {
+    overflow: hidden;
+}
+
+.categories-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.center-text {
+    justify-content: center;
+    align-items: center;
+    margin-left: 1rem;
+}
+
+@media screen and (max-width: 992px) {
+    * {
+        zoom: 95%;
+    }
+}
